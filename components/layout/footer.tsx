@@ -3,7 +3,7 @@ import Link from "next/link"
 import { navLinks } from "@/config/links"
 import { siteConfig } from "@/config/site"
 
-import { ModeToggle } from "../mode-toggle"
+// import { ModeToggle } from "../mode-toggle"
 
 export default function Footer() {
   return (
@@ -41,7 +41,7 @@ export default function Footer() {
               href="https://github.com/redpangilinan/iotawise"
               className="hover:underline"
             >
-              Iotawise App
+              IronWill App
             </a>
             . All Rights Reserved.
           </div>

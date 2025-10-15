@@ -12,13 +12,13 @@ export default function HeroHeader() {
     <>
       <section className="space-y-8 pb-12 pt-4 md:space-y-16 md:pt-10 lg:py-32">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-          <Link
+          {/* <Link
             href={siteConfig.links.github}
             className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
             target="_blank"
           >
             Free and open source!
-          </Link>
+          </Link> */}
           <h1 className="text-4xl font-semibold sm:text-5xl md:text-6xl lg:text-7xl">
             Build your habits.
           </h1>
@@ -33,14 +33,14 @@ export default function HeroHeader() {
             >
               Get Started
             </Link>
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               className={cn(buttonVariants({ variant: "outline" }))}
             >
               <Icons.github className="mr-2 h-4 w-4" />
               <span>GitHub</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
